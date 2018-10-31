@@ -51,7 +51,6 @@ Execute:
 
 ```bash
 python scripts/mk_make.py
-./configure
 cd build
 make
 sudo make install
@@ -167,6 +166,9 @@ you can use the ``--pypkgdir`` option to change the Python package directory
 used for installation. For example:
 
 ```bash
+check python path with cmd：
+python -m site
+then：
 python scripts/mk_make.py --prefix=/home/leo --python --pypkgdir=/home/leo/lib/python-2.7/site-packages
 ```
 
