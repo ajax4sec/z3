@@ -51,6 +51,7 @@ Execute:
 
 ```bash
 python scripts/mk_make.py
+./configure
 cd build
 make
 sudo make install
@@ -194,4 +195,4 @@ See [``examples/python``](examples/python) for examples.
 
 ### ``Web Assembly``
 
-[WebAssembly](https://github.com/cpitclaudel/z3.wasm) bindings are provided by Clément Pit-Claudel.
+[WebAssembly](https://github.com/cpitclaudel/z3.wasm) bindings are provided by ClÃ©ment Pit-Claudel.
